@@ -16,12 +16,19 @@ bot.on('ready', function (evt) {
 });
 
 const soundboard = {
-  ah: './ahhh.mp3',
-  ahh: './ahhh.mp3',
-  ahhh: './ahhh.mp3',
-  ahhhh: './ahhh.mp3',
-  oof: './oof.mp3',
-  ooof: './oof.mp3',
+  ah: './sounds/ahhh.mp3',
+  ahh: './sounds/ahhh.mp3',
+  ahhh: './sounds/ahhh.mp3',
+  ahhhh: './sounds/ahhh.mp3',
+  oof: './sounds/oof.mp3',
+  ooof: './sounds/oof.mp3',
+  fart: './sounds/fart.mp3',
+  toot: './sounds/toot.mp3',
+  haha: './sounds/haha.mp3',
+  hahaha: './sounds/haha.mp3',
+  hehe: './sounds/haha.mp3',
+  strong: './sounds/strong.mp3',
+  stable: './sounds/strong.mp3',
 }
 
 // when client receives message
