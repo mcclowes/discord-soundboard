@@ -5,6 +5,7 @@
   "main": "bot.js",
   "author": "mcclowes",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.16",
     "discord.js": "^11.4.2",
     "ffmpeg": "0.0.4",
     "node-opus": "^0.3.1",
