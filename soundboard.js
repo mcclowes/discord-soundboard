@@ -1,10 +1,10 @@
 const Discord = require ('discord.js');
 const logger = require('winston');
-const auth = require('./auth.json');
+require('dotenv').config()
 
 // login to client
 const bot = new Discord.Client();
-bot.login(auth.token);
+bot.login(process.env.AUTH_TOKEN);
 
 let isReady = false;
 
