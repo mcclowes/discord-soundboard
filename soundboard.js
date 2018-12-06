@@ -18,11 +18,11 @@ bot.on('ready', function (evt) {
 const soundboard = [
   ['fart', './sounds/fart.mp3'],
   ['toot', './sounds/toot.mp3'],
-  ['haha', './sounds/haha.mp3'],
-  ['hehe', './sounds/haha.mp3'],
+  ['hahahahaha', './sounds/haha.mp3'],
+  ['hehehehehe', './sounds/haha.mp3'],
   ['strong', './sounds/strong.mp3'],
   ['stable', './sounds/strong.mp3'],
-  ['ah', './sounds/ahhh.mp3'],
+  ['ahh', './sounds/ahhh.mp3'],
   ['oof', './sounds/oof.mp3'],
 ]
 
@@ -32,7 +32,7 @@ const playSound = async (sound, voiceChannel) => {
   const dispatcher = connection.playFile(sound[1]);
 
   dispatcher.on("end", end => {
-    voiceChannel.leave();
+    setTimeout(voiceChannel.leave();, 1000);
     return;
   });
 }
