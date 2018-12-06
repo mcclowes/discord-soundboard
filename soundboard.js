@@ -32,7 +32,7 @@ const playSound = async (sound, voiceChannel) => {
   const dispatcher = connection.playFile(sound[1]);
 
   dispatcher.on("end", end => {
-    setTimeout(voiceChannel.leave();, 1000);
+    setTimeout(voiceChannel.leave(), 1000);
     return;
   });
 }
