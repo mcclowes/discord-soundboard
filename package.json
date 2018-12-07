@@ -1,5 +1,5 @@
 {
-  "name": "banter-bot",
+  "name": "discord-soundboard",
   "version": "1.0.0",
   "description": "My own Discord bot",
   "main": "soundboard.js",
